@@ -5,7 +5,8 @@ def unsafe?(speed)
    puts "Is an unsafe speed!"
   elsif speed < 40 
    puts "Is an unsafe speed!"
-  else speed 
+  else speed > 40 || < 60
+    puts "Is a safe speed!"
   end
 end
 
