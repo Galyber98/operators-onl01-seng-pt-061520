@@ -2,11 +2,11 @@ speed = 80
 
 def unsafe?(speed)
   if speed > 60 
-   puts "Is an unsafe speed!"
+   return "Is an unsafe speed!"
   elsif speed < 40 
-   puts "Is an unsafe speed!"
+   return "Is an unsafe speed!"
   else speed < 60|| > 40 
-    puts "Is a safe speed!"
+    return "Is a safe speed!"
   end
 end
 
